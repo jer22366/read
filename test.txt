@@ -1,0 +1,14 @@
+VirtualBoxVM --startvm 虛擬機名稱
+
+
+虛擬機IP記得要先設置網卡
+https://myapollo.com.tw/zh-tw/macos-connect-virtualbox-linux-virtual-machine/ 設定網路
+
+
+https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys-on-centos7#step-3-%E2%80%94-authenticate-to-your-centos-server-using-ssh-keys. 設定ssh連線 rsakey
+
+user@hostname => 虛擬機名稱＠虛擬機IP
+
+
+grep 'temporary password' /var/log/mysqld.log 查看mysql帳號密碼
+
